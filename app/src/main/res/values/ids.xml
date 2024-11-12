@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="image_book_cover" type="id"/>
+    <item name="text_book_title" type="id"/>
+    <item name="text_book_author" type="id"/>
+    <item name="text_book_description" type="id"/>
+</resources>

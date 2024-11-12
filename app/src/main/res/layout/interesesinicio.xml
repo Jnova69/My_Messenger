@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecciona tus intereses"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_books"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Libros"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_movies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Películas"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Música"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_sports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deportes"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_videogames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Videojuegos"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_art"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arte"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_travel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Viajes"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_save_interests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar intereses"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+</ScrollView>
